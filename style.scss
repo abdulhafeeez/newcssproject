@@ -1,0 +1,39 @@
+header{
+    background-color: blue;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 0px;
+    border: solid 5px black;
+    color: white;
+    div{
+        text-align: center;
+        font-weight: 100px;
+        text-decoration: dashed;
+    }
+}
+main{
+    color: white;
+    font-weight: 300px;
+section{
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px blue;
+    background-color: black;
+}
+}
+footer{
+    background-color: blue;
+}
+.things{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    color: blue;
+    font-weight: 100px;
+    
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--THIS IS A COMMENT-->
+
+<head>
+    <title>WEBPAGE.com</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sail&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: roboto;">
+    <header>
+        <div>
+            <p> PORTFOLIO WEBPAGE </p>
+        </div>
+        <!--NAVBAR-->
+        <nav style="display: flex; justify-items: center;justify-content: space-evenly;">
+            <a href="#HOME" class="things">HOME</a>
+            <a href="#ABOUT" class="things">ABOUT</a>
+            <a href="#WORK" class="things">WORK</a>
+            <a href="#RESUME" class="things">RESUME</a>
+            <a href="#CONTACT" class="things">CONTACT</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <!--HOME SECTION-->
+        <section id="HOME">
+            <h1>WELCOME TO MY PORTFOLIO WEBPAGE</h1>
+            <p>THIS IS A WEBPAGE CREATED BY ME.SO WELCOME AGAIN</p>
+        </section>
+            <!--ABOUT SECTION WITH FORM-->
+        <section id="ABOUT">
+<h1>ABOUT</h1>
+            <form>
+                <p>
+                    <label for="name">YOUR NAME:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="bio">SHORT BIO:</label>
+                    <textarea id="bio" name="bio" rows="4">TYPE HERE</textarea>
+                </p>
+                <p>
+                    <input type="SUBMIT" name="SAVE YOUR INFO">
+                </p>
+            </form>
+        </section>
+            <!--WORK SECTION WITH FORMS-->
+        <section id="WORK">
+            <h1>YOUR WORK</h1>
+            <form>
+                <p>
+                <p>
+                    <label for="project">PROJECT TITLE:</label>
+                    <input type="text" id="project" name="project" required>
+                </p>
+                <p>
+                    <label for="description">PROJECT DESCRIPTION:</label>
+                    <textarea id="description" name="description" rows="4">TYPE HERE</textarea>
+                </p>
+                <p>
+                    <input type="SUBMIT" name="SAVE YOUR WORK">
+                </p>
+                </p>
+            </form>
+        </section>
+            <!--RESUME SECTION WITH FORMS-->
+        <section id="RESUME">
+            <h1>YOUR RESUME</h1>
+            <form>
+                <p>
+                    <label for="RESUME">UPLOAD YOUR RESUME</label>
+                    <input type="file" id="RESUME" name="RESUME">
+                    <input type="SUBMIT" value="UPLOAD RESUME">
+                </p>
+            </form>
+        </section>
+            <!--CONTACT SECTION WITH FORMS-->
+        <section id="CONTACT">
+            <h1>CONTACT</h1>
+            <form>
+                <p>
+                    <label id="EMAIL">YOUR EMAIL:</label>
+                    <input type="EMAIL" id="EMAIL" name="EMAIL" required>
+                </p>
+                <p>
+                    <label for="MESSAGE">YOUR MESSAGE</label>
+                    <textarea rows="5" name="MESSAGE" id="MESSAGE">ENTER YOUR MESSAGE</textarea>
+                </p>
+                <P>
+                    <input type="SUBMIT" value="SEND MESSAGE">
+                </P>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>@ 2025 MY PORTFOLIO.ALL RIGHT RESERVED </p>
+    </footer>
+</body>
+
+</html>
