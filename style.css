@@ -1,43 +1,180 @@
 header {
-  background-color: blue;
-  font-size: 20px;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 0px;
-  border: solid 5px black;
-  color: white;
+  background-color: black;
+  color: green;
+  margin-bottom: 0px;
 }
 header div {
-  text-align: center;
-  font-weight: 100px;
-  -webkit-text-decoration: dashed;
-          text-decoration: dashed;
+  padding-left: 40px;
 }
-
-main {
-  color: white;
-  font-weight: 300px;
+header div p {
+  font-size: 30px;
+  font-weight: bolder;
 }
-main section {
-  padding: 20px;
-  margin: 20px;
-  border: solid 5px blue;
-  background-color: black;
+header section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-footer {
-  background-color: blue;
+header section p {
+  margin-top: 0px;
+}
+header section h1 {
+  margin-bottom: 5px;
+}
+header section div {
+  justify-content: center;
+}
+header section div img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-right: 40px;
 }
 
 .things {
-  color: black;
   text-decoration: none;
+  color: green;
+  font-size: larger;
 }
 
-.main {
+main {
+  background-color: black;
+}
+main section {
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-bottom: 30px;
+  padding-right: 5px;
+  margin: 100px;
+  margin-top: 0px;
+}
+
+#ABOUT {
+  background-image: url(blackman.jpeg);
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 400px;
+}
+#ABOUT div {
   display: flex;
   flex-direction: column;
-  background-color: lightgrey;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+#ABOUT div h1 {
   color: blue;
-  font-weight: 100px;
+  text-decoration: underline;
+  text-align: center;
+}
+#ABOUT div p {
+  color: blue;
+  text-align: end;
+}
+#ABOUT div ul {
+  color: blue;
+  list-style: none;
+  border: 1px solid orange;
+  height: 100px;
+  width: 300px;
+  padding: 20px;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+#SERVICES {
+  background-image: url(darkmountains.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  color: blue;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.aligning {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.only {
+  text-align: start;
+  text-decoration: underline;
+  color: darkgreen;
+  font-weight: 1000px;
+}
+
+.design {
+  border: 2px solid blue;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 50px;
+  color: darkgreen;
+  font-weight: 1000px;
+}
+
+.omg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#RESUME {
+  background-color: black;
+  border: 1px solid green;
+  height: 50px;
+  width: 200px;
+  margin: 50px;
+  background-color: green;
+}
+#RESUME a {
+  text-decoration: none;
+  color: wheat;
+}
+
+#nanny {
+  display: inline;
+  flex-direction: column;
+}
+
+#CONTACT {
+  margin-top: 350px;
+  color: blue;
+  margin-left: 2px;
+  background-color: grey;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
+
+#sub {
+  background-color: blue;
+  color: black;
+}
+
+.down {
+  background-color: white;
+  color: blue;
+}
+
+footer {
+  width: 1335px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

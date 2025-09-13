@@ -11,89 +11,99 @@
 </head>
 <body style="font-family: roboto;">
     <header>
-        <div>
+    <div>
             <p> PORTFOLIO WEBPAGE </p>
-        </div>
         <!--NAVBAR-->
-        <nav style="display: flex; justify-items: center;justify-content: space-evenly;">
+        <nav>
             <a href="#HOME" class="things">HOME</a>
             <a href="#ABOUT" class="things">ABOUT</a>
-            <a href="#WORK" class="things">WORK</a>
+            <a href="#SERVICES" class="things">SERVICES</a>
             <a href="#RESUME" class="things">RESUME</a>
-            <a href="#CONTACT" class="things">CONTACT</a>
+            <a href="#CONTACT" class="things">CONTACT US</a>
         </nav>
+        </div>
+        <!--HOME SECTION-->
+        <section id="HOME">
+            <div>
+                <img src="man.jpeg">
+            </div>
+            <h1>FALOWO ABDULHAFEEZ</h1>
+            <p>A CREATIVE FREELANCER & FULL STACK DEVELOPER</p>
+        </section>
     </header>
     <hr>
     <main>
-        <!--HOME SECTION-->
-        <section id="HOME">
-            <h1>WELCOME TO MY PORTFOLIO WEBPAGE</h1>
-            <p>THIS IS A WEBPAGE CREATED BY ME.SO WELCOME AGAIN</p>
-        </section>
-            <!--ABOUT SECTION WITH FORM-->
+            <!--ABOUT-->
         <section id="ABOUT">
-<h1>ABOUT</h1>
-            <form>
-                <p>
-                    <label for="name">YOUR NAME:</label>
-                    <input type="text" id="name" name="name" required>
-                </p>
-                <p>
-                    <label for="bio">SHORT BIO:</label>
-                    <textarea id="bio" name="bio" rows="4">TYPE HERE</textarea>
-                </p>
-                <p>
-                    <input type="SUBMIT" name="SAVE YOUR INFO">
-                </p>
-            </form>
+            <div>
+<h1>ABOUT ME</h1>
+            <p >My name is falowo abdulhafeez.I`m a freelance full stack developer based in Abuja, Nigeria,<br> and i am very passionate and dedicated to my work. <br>With my 6 years experience as a professional full stack developer,<br>i have acquired the skills necessary to build great and premium websites.</p>
+            <div class="aligning">
+            <ul>
+                <li>NAME: FALOWO ABDULHAFEEZ</li>
+                <li>AGE: 20</li>
+                <li>PHONE: 08133143441</li>
+                <li>EXPERIENCE: 6 YEARS</li>
+                <li>ADDRESS: ABUJA,NIGERIA</li>
+                <li>FREELANCE: AVAILABLE</li>
+            </ul>
+            <!--AUDIO FILE USING AUDIO TAG-->
+            <audio controls>
+    <source src="blank.m4a" type="audio/mp4" style="color: green;"></audio>
+  <button id="RESUME">
+                    <a href="https://fontawesome.com/" class="the">DOWNLOAD MY RESUME</a>
+                </button>
+            </div>
+            </div>
         </section>
-            <!--WORK SECTION WITH FORMS-->
-        <section id="WORK">
-            <h1>YOUR WORK</h1>
-            <form>
-                <p>
-                <p>
-                    <label for="project">PROJECT TITLE:</label>
-                    <input type="text" id="project" name="project" required>
-                </p>
-                <p>
-                    <label for="description">PROJECT DESCRIPTION:</label>
-                    <textarea id="description" name="description" rows="4">TYPE HERE</textarea>
-                </p>
-                <p>
-                    <input type="SUBMIT" name="SAVE YOUR WORK">
-                </p>
-                </p>
-            </form>
-        </section>
-            <!--RESUME SECTION WITH FORMS-->
-        <section id="RESUME">
-            <h1>YOUR RESUME</h1>
-            <form>
-                <p>
-                    <label for="RESUME">UPLOAD YOUR RESUME</label>
-                    <input type="file" id="RESUME" name="RESUME">
-                    <input type="SUBMIT" value="UPLOAD RESUME">
-                </p>
-            </form>
+            <!--SERVICES SECTION-->
+        <section id="SERVICES">
+            <h1 class="only">MY SERVICES</h1>
+            <div class="omg">
+<div class="design">
+                   <h1>ROLE</h1>
+    <p>
+                       I create efficient and effective website,which is lorem ipsum dolor sit amet,consectetur.
+    </p>
+               </div>
+<div class="design">
+                   <h1>ACHIEVEMENTS</h1>
+                   <p>
+                       lorem ipsum dolor sit amet,consectetur ambient. Making it a  meaningful and well arranged website.
+                    </p>
+               </div>
+<div class="design">
+                   <h1>CAREER</h1>
+                   <p>
+      lorem ipsum dolor sit amet,consectetur ambient. Doing all our best to make a user friendly interface for the web user.
+                    </p>
+               </div>
+            </div>
+               <!--YOUTUBE VIDEO ABOUT OUR SERVICES USING IFRAME-->
+               <div class="only">
+               <h1 style="margin-bottom: 2px; text-decoration: underline;">THIS IS A VIDEO SHOWING PREVIOUS PROJECTS THAT HAS BEEN DONE BY MY I & MY TEAM</h1>
+                 <iframe width="500" height="315" src="https://www.youtube.com/embed/jBaL41mKS8U?si=-yKQ4PVavcToHQ5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-top: 2px;">ABOUT SERVICES</iframe>
+               </div>
         </section>
             <!--CONTACT SECTION WITH FORMS-->
+            <div id="nanny">
         <section id="CONTACT">
-            <h1>CONTACT</h1>
+            <h1>CONTACT US</h1>
             <form>
                 <p>
                     <label id="EMAIL">YOUR EMAIL:</label>
-                    <input type="EMAIL" id="EMAIL" name="EMAIL" required>
+                    <input type="EMAIL" id="EMAIL" name="EMAIL" required class="down">
                 </p>
                 <p>
                     <label for="MESSAGE">YOUR MESSAGE</label>
-                    <textarea rows="5" name="MESSAGE" id="MESSAGE">ENTER YOUR MESSAGE</textarea>
+                    <textarea rows="5" name="MESSAGE" id="MESSAGE" class="down">ENTER YOUR MESSAGE</textarea>
                 </p>
                 <P>
-                    <input type="SUBMIT" value="SEND MESSAGE">
+                    <input type="SUBMIT" value="SEND MESSAGE" id="sub">
                 </P>
             </form>
         </section>
+            </div>
     </main>
     <footer>
         <p>@ 2025 MY PORTFOLIO.ALL RIGHT RESERVED </p>
